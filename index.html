@@ -28,8 +28,130 @@
             </ul>
         </nav>
     </header>
-    <aside>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</aside>
-    <main>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</main>
-    <footer>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</footer>
+    <main class="main">
+        <section class="main-content">
+            <img width="200" height="200" src="./images/logo.svg" alt="Логотип Лунное море"  class="main-content__logo">
+            <h1 class="main-title">ЖК «Лунное море»</h1>
+            <p class="subtitle">Место, откуда не хочется улетать</p>
+            <a class="main-content__anchor" href="#forms">Забронировать</a>
+        </section>
+        <section class="advantages section">
+            <div class="section__wrapper advantages__wrapper">
+                <div class="advantages__item advantage">
+                    <h2 class="advantage__title">Уникальный вид</h2>
+                    <p class="advantage__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="advantages__item advantage">
+                    <h2 class="advantage__title">Инфраструктура</h2>
+                    <p class="advantage__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="advantages__item advantage">
+                    <h2 class="advantage__title">Близость к Москве</h2>
+                    <p class="advantage__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+        <section class="about section">
+            <div class="section__wrapper about__wrapper">
+                <div class="about__info">
+                    <h2 class="about__title">О ЖК «Лунное море»</h2>
+                    <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quod! Hic delectus facere cumque fugit eaque architecto corrupti, ipsam doloremque nam vero dolor nostrum distinctio! Voluptatibus suscipit id illo. Neque.</p>
+                    <p class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis laudantium facer</p>
+                </div>
+                <div class="about__images">
+                    <img src="./images/moon-1.jpg" alt="ЖК Лунное Море на Луне" class="about__img">
+                </div>
+            </div>
+        </section>
+        <section class="places section">
+            <div class="section__wrapper places__wrapper">
+                <div class="places__images">
+                    <img src="./images/moon-2.jpg" alt="ЖК Лунное Море на Луне" class="places__img">
+                </div>
+                <div class="places__info">
+                    <h2 class="places__title">Места для отдыха</h2>
+                    <p class="places__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quod! Hic delectus facere cumque fugit eaque architecto corrupti, ipsam doloremque nam vero dolor nostrum distinctio! Voluptatibus suscipit id illo. Neque.</p>
+                    <p class="places__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis laudantium facer</p>
+                </div>
+            </div>
+        </section>
+        <section class="forms" id="forms">
+            <div class="forms__wrapper">
+                <h2 class="forms__title">Оставьте заявку сегодня!</h2>
+                <form action="#">
+                    <fieldset>
+                        <legend>Параметры квартиры</legend>
+                        <div class="form__item">
+                            <label class="form__label" for="countRooms">Количество комнат:</label>
+                            <select class="form__select" id="countRooms">
+                                <option>Пункт 1</option>
+                                <option>Пункт 2</option>
+                                <option>Пункт 3</option>
+                            </select>
+                        </div>
+                        <div class="form__item">
+                            <label class="form__label" for="repairs">Ремонт:</label>
+                            <select class="form__select" id="repairs">
+                                <option>Пункт 1</option>
+                                <option>Пункт 2</option>
+                                <option>Пункт 3</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Контактная информация</legend>
+                        <div class="form__item">
+                            <label class="form__label" for="name">Имя:</label>
+                            <input id="name" type="text" class="form__input">
+                        </div>
+                        <div class="form__item">
+                            <label class="form__label" for="phone">Телефон:</label>
+                            <input id="phone" type="text" class="form__input">
+                        </div>
+                        <div class="form__item">
+                            <label class="form__label" for="email">E-mail:</label>
+                            <input id="email" type="text" class="form__input">
+                        </div>
+                    </fieldset>
+                    <button class="form__button">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__col footer__col--align-left">
+                <a href="/" class="footer__logo logo">
+                    <img width="40" height="40" src="./images/logo.svg" alt="Логотип Лунное море" class="logo__img">
+                    <div class="logo__text">Лунное море</div>
+                </a>
+                <div class="footer__copyright copyright">
+                    © 2032
+                </div>
+            </div>
+            <div class="footer__col footer__col--align-center">
+                <h2 class="footer__title">Проектная документация</h2>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Скачать</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Посмотреть на сайте</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col footer__col--align-right">
+                <h2 class="footer__title">О застройщике</h2>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Отзывы</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Сайт компании</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
