@@ -2,11 +2,12 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    padding-bottom: 0px;
     color: #000;
 }
 
 .header {
-    position: fixed;
+    position: fixd;
     left: 0;
     top: 0;
     width: 100%;
