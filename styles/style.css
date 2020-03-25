@@ -16,14 +16,14 @@
     align-items: center;
     padding: 20px;
     background-color: #fff;
-    box-sizing: borderbox;
+    box-sizing: border-box;
 }
 
 .logo {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: nherit;
+    color: inherit;
 }
 
 .logo__img {
